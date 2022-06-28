@@ -9,7 +9,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42641792-eb23-47b1-8749-a822f85ccd86" name="Changes" comment="" />
+    <list default="true" id="42641792-eb23-47b1-8749-a822f85ccd86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/exception/InternalServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/PetCilinicRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/petcilinic/web/PetCilinicRestControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/PetcilinicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/PetcilinicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/dao/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/dao/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/dao/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/dao/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/dao/mem/OwnerRepositoryInMemoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/dao/mem/OwnerRepositoryInMemoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/exception/OwnerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/exception/OwnerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/service/PetCilinicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/service/PetCilinicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/service/PetClinicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/service/PetClinicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/PetCilinicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/PetCilinicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/TestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/petcilinic/web/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/owner.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/owner.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/petcilinic/PetcilinicApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/petcilinic/PetcilinicApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -44,16 +72,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/JavaSpringBoot/petcilinic",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.build.android"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propGUI"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "EditorConfig",
+      "JSP"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.example.petcilinic.PetcilinicApplication">
     <configuration name="com.example.petcilinic.PetcilinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.petcilinic.PetcilinicApplication" />
       <module name="petcilinic" />
@@ -68,9 +103,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PetCilinicRestControllerTest.testCreateOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petcilinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.petcilinic.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.petcilinic.web" />
+      <option name="MAIN_CLASS_NAME" value="com.example.petcilinic.web.PetCilinicRestControllerTest" />
+      <option name="METHOD_NAME" value="testCreateOwner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetCilinicRestControllerTest.testDeleteOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petcilinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.petcilinic.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.petcilinic.web" />
+      <option name="MAIN_CLASS_NAME" value="com.example.petcilinic.web.PetCilinicRestControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteOwner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetCilinicRestControllerTest.testGetOwners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petcilinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.petcilinic.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.petcilinic.web" />
+      <option name="MAIN_CLASS_NAME" value="com.example.petcilinic.web.PetCilinicRestControllerTest" />
+      <option name="METHOD_NAME" value="testGetOwners" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetCilinicRestControllerTest.testUpdateOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petcilinic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.petcilinic.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.petcilinic.web" />
+      <option name="MAIN_CLASS_NAME" value="com.example.petcilinic.web.PetCilinicRestControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateOwner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.example.petcilinic.PetcilinicApplication" />
+      <item itemvalue="JUnit.PetCilinicRestControllerTest.testCreateOwner" />
+      <item itemvalue="JUnit.PetCilinicRestControllerTest.testDeleteOwner" />
+      <item itemvalue="JUnit.PetCilinicRestControllerTest.testUpdateOwner" />
+      <item itemvalue="JUnit.PetCilinicRestControllerTest.testGetOwners" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.example.petcilinic.PetcilinicApplication" />
+        <item itemvalue="JUnit.PetCilinicRestControllerTest.testDeleteOwner" />
+        <item itemvalue="JUnit.PetCilinicRestControllerTest.testUpdateOwner" />
+        <item itemvalue="JUnit.PetCilinicRestControllerTest.testCreateOwner" />
+        <item itemvalue="JUnit.PetCilinicRestControllerTest.testGetOwners" />
       </list>
     </recent_temporary>
   </component>
@@ -84,5 +194,21 @@
       <updated>1655982918731</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/petcilinic$PetCilinicRestControllerTest_testGetOwnerById.ic" NAME="PetCilinicRestControllerTest.testGetOwnerById Coverage Results" MODIFIED="1656419544824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.petcilinic.web.*</FILTER>
+    </SUITE>
   </component>
 </project>
